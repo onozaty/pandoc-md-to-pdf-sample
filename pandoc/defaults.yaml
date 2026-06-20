@@ -13,4 +13,4 @@ metadata:
   diagram:
     engine:
       mermaid:
-        mime-type: image/png
+        mime-type: application/pdf
