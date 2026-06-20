@@ -1,0 +1,11 @@
+{
+  "name": "Ubuntu",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "remoteUser": "ubuntu",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  }
+}
