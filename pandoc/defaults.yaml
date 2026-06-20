@@ -1,0 +1,16 @@
+pdf-engine: xelatex
+
+filters:
+  - filters/diagram.lua
+
+variables:
+  mainfont: Noto Serif CJK JP
+  CJKmainfont: Noto Serif CJK JP
+  geometry: margin=2.5cm
+  papersize: a4
+
+metadata:
+  diagram:
+    engine:
+      mermaid:
+        mime-type: image/png
