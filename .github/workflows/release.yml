@@ -16,7 +16,10 @@ jobs:
       - name: Convert Markdown to PDF
         run: bash convert.sh
 
+      - name: Zip PDFs
+        run: zip -j output/documents.zip output/*.pdf
+
       - name: Create Release
         uses: softprops/action-gh-release@v3
         with:
-          files: output/*.pdf
+          files: output/documents.zip
