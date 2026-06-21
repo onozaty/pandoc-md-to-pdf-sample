@@ -10,7 +10,7 @@ mkdir -p "$PROJECT_ROOT/output"
 
 pandoc \
   -d "$PROJECT_ROOT/pandoc/defaults.yaml" \
-  "$PROJECT_ROOT/docs/sample.md" \
-  -o "$PROJECT_ROOT/output/sample.pdf"
+  "$PROJECT_ROOT/docs/basic-design.md" \
+  -o "$PROJECT_ROOT/output/basic-design.pdf"
 
-echo "Generated: output/sample.pdf"
+echo "Generated: output/basic-design.pdf"
