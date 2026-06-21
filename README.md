@@ -34,7 +34,16 @@ output/
 └── api-spec.pdf
 ```
 
-### 単体変換
+## リリース
+
+`v*` 形式のタグをプッシュすると、GitHub Actions が自動的にPDFを生成してGitHub Releasesに添付します。
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+## ローカルでの単体変換
 
 特定のファイルだけ変換したい場合は直接 `docker run` を実行します。
 
